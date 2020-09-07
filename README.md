@@ -1,4 +1,4 @@
-#Star Clock (North Star and Big Dipper)
+# Star Clock (North Star and Big Dipper)
 The program takes a jpg or bmp file. Converts it into an array of pixels and using a user-given threshold determines the star pixels. The an array of coordinates of middle points of all the stars in the picture is generated. Those middle points are used to determine angle between the stars. For a star to match 2 angels should match the angles from the database - North Star to Reference0 to selected star and North Star to Reference1 to selected stars. For now the reference 0 and 1 stars along with North Star should be in the frame to compute the angles.
 
 Once the program matches all the angles of the stars of Big Dipper, those coordinates are saved. Then those coordinates are used to determine angle of Big Dipper from North Star and that is used to get RAW time.
